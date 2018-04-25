@@ -7,7 +7,13 @@ Cowrie
 Wordpot
 
 ## Any issues you encountered
-After installing the mhn-admin I could not access it through my web browser via the ip address. The instructions for GCP Users did not mention that I needed to open port 80. After opening port 80 everything worked fine for a day. The next day I had no access to the mhn-admin website via web browser and ssh. I had to delete the vm and redo everything. From then on, I only opened port 80 when I wanted access to it. I also set up Cowrie and Wordpot. I left them running for a few days but, the mhn-admin portal said there were no attacks on them.
+After installing the mhn-admin I could not access it through my web browser via the ip address. The instructions for GCP Users did not mention that I needed to open port 80. After opening port 80 everything worked fine for a day. The next day I had no access to the mhn-admin website via web browser and ssh. I had to delete the vm and redo everything. From then on, I only opened port 80 when I wanted access to it. 
+
+I also set up Cowrie and Wordpot. I left them running for a few days but, the mhn-admin portal said there were no attacks on them.
+<img src ="https://github.com/Mikhail-Kreytser/Cybersecurity-Week9/blob/master/Sensors.png">
+
+After a few days running it, I could not open the mhn-admin website. I kept getting a 504 Gateway Time-out.
+<img src ="https://github.com/Mikhail-Kreytser/Cybersecurity-Week9/blob/master/504%20Gateway%20Time-out.png">
 
 ## A summary of the data collected: 
 Number of attacks: 12543
