@@ -2,9 +2,9 @@
 Time spent: 2.5 hours to setup
 
 ## Which Honeypot(s) you deployed: 
-Dionaea over HTTP
-Cowrie
-Wordpot
+  * Dionaea over HTTP
+  * Cowrie
+  * Wordpot
 
 ## Any issues you encountered
 After installing the mhn-admin I could not access it through my web browser via the ip address. The instructions for GCP Users did not mention that I needed to open port 80. After opening port 80 everything worked fine for a day. The next day I had no access to the mhn-admin website via web browser and ssh. I had to delete the vm and redo everything. From then on, I only opened port 80 when I wanted access to it. 
